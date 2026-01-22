@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+    <title>Clarté Pro - Coach Professionnel</title>
+</head>
+
+
+<body>
+    <nav>
+        <div class="nav_bar">
+            <div class="nav_header">
+                <div class="nav_logo">
+                    <a href="#">Clarté Pro</a>
+                </div>
+                <div class="nav_menu_btn" id="menu-btn">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+            <ul class="nav_links" id="nav-links">
+                <li><a href="#top">HOME</a></li>
+                <li><a href="#about">À PROPOS</a></li>
+                <li><a href="#contact">PRENDRE RENDEZ-VOUS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container" id="top">
+        <div class="content">
+            <h1>Avancez avec clarté dans votre parcours professionnel</h1>
+            <p>Un accompagnement individuel pour faire le point, décider et avancer sereinement.</p>
+            <a href="#contact" class="btn btn-primary">Appel découverte gratuit</a>
+        </div>
+    </div>
+    
+    <section class="section fade-slide">
+        <h2>Vous vous reconnaissez ?</h2>
+        <p class="section-text">
+            Vous avez des compétences, des envies, mais tout semble flou.
+            Trop d'options, pas assez de direction claire.
+        </p>
+    </section>
+
+    <section class="section section-alt fade-slide">
+        <h2>Une approche simple et structurée</h2>
+        <div class="features">
+            <div class="feature fade-slide">
+                <div class="feature-icon">👂</div>
+                <h3>Écoute</h3>
+                <p>Comprendre votre situation sans jugement, dans un cadre bienveillant et confidentiel.</p>
+            </div>
+            <div class="feature fade-slide">
+                <div class="feature-icon">💡</div>
+                <h3>Clarté</h3>
+                <p>Identifier vos priorités et vos leviers d'action pour avancer efficacement.</p>
+            </div>
+            <div class="feature fade-slide">
+                <div class="feature-icon">🎯</div>
+                <h3>Action</h3>
+                <p>Construire un plan concret et réaliste, adapté à votre situation.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section fade-slide">
+        <h2>Comment ça fonctionne ?</h2>
+        <ol class="steps">
+            <li class="fade-slide">
+                <strong>1. Appel découverte gratuit</strong>
+                <small>30 minutes pour faire connaissance et définir vos besoins</small>
+            </li>
+            <li class="fade-slide">
+                <strong>2. Programme d'accompagnement</strong>
+                <small>3 séances individuelles de 1h30 sur 6 semaines - 450€</small>
+            </li>
+            <li class="fade-slide">
+                <strong>3. Suivi et ajustements</strong>
+                <small>Support par email entre les séances et bilan final</small>
+            </li>
+        </ol>
+    </section>
+
+    <section class="section section-alt about-section fade-slide" id="about">
+        <h2>À propos</h2>
+        <div class="about-content">
+            <p>
+                Je m'appelle <strong>Marie Dubois</strong>, coach professionnelle certifiée avec plus de 8 ans d'expérience 
+                dans l'accompagnement de personnes en transition de carrière.
+            </p>
+            <p>
+                Mon approche est pragmatique et bienveillante : je vous aide à y voir clair, 
+                à prendre des décisions alignées avec vos valeurs, et à passer à l'action.
+            </p>
+            <div class="credentials">
+                <p><strong>Certifications :</strong> Coach certifiée ICF (International Coach Federation) | Formation en psychologie positive</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section fade-slide">
+        <h2>Témoignages</h2>
+        <div class="testimonials">
+            <blockquote class="fade-slide">
+                <p>"J'y vois enfin clair et j'ai repris confiance dans mes choix professionnels. Marie m'a aidée à identifier ce qui comptait vraiment pour moi."</p>
+                <span>— Camille D., Chef de projet</span>
+            </blockquote>
+            <blockquote class="fade-slide">
+                <p>"Un accompagnement simple, humain et efficace. En 3 séances, j'ai clarifié ma direction et mis en place des actions concrètes."</p>
+                <span>— Julien M., Développeur web</span>
+            </blockquote>
+        </div>
+    </section>
+
+    <section class="cta-section fade-slide">
+        <h2>Prêt à passer à l'action ?</h2>
+        <p>Réservez votre appel découverte gratuit de 30 minutes</p>
+        <a href="#contact" class="btn btn-primary">Commencer maintenant</a>
+    </section>
+
+    <section class="section contact fade-slide" id="contact">
+        <h2>Prendre contact</h2>
+        <div class="form-message" id="formMessage"></div>
+        <form class="contact-form" id="contactForm">
+            <input type="text" name="name" placeholder="Nom" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <textarea name="message" placeholder="Parlez-moi brièvement de votre situation" required></textarea>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>© 2026 Clarté Pro - Tous droits réservés</p>
+        <div class="socials">
+            <span>
+                <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+            </span>
+            <span>
+                <a href="#"><i class="ri-instagram-fill"></i></a>
+            </span>
+            <span>
+                <a href="#"><i class="ri-facebook-box-fill"></i></a>
+            </span>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    
+
+
+</body>
+</html>
