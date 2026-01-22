@@ -5,7 +5,7 @@ Landing page conçue pour promouvoir un service fictif et inciter à une action 
 Offrir un aperçu clair de l’accompagnement proposé, expliquer le processus, partager les témoignages et inciter les visiteurs à prendre contact facilement.
 
 ## 🖥️ Aperçu
-![Aperçu du site](images/screenshots/landing_page.png)
+![Aperçu du site](images/landing_page.png)
 
 ## 🧠 Concept
 - Message clair dès la première section (hero) avec un call-to-action visible
